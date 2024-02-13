@@ -125,7 +125,7 @@
                 goldText.innerText = gold;
                 healthText.innerText = health;   
             } else {
-                text.innerText = "You do not have enough gold to buy health."
+                text.innerText = "You do not have enough gold to buy health.";
             }
 
         }
@@ -141,7 +141,7 @@
                 text.innerText += " In your inventory you have: " + inventory;
             }
             else {
-                text.innerText = "You do not have enough gold to buy a weapon."
+                text.innerText = "You do not have enough gold to buy a weapon.";
             }
             }
             else {
@@ -159,7 +159,7 @@
                 text.innerText += " In your inventory you have: " + inventory;
             }
             else {
-                text.innerText = "Don't sell your only weapon!"
+                text.innerText = "Don't sell your only weapon!";
             }
         }
         function fightSlime() {
@@ -179,12 +179,13 @@
             monsterHealth = monsters[fighting].health;
             const monsterStats = document.querySelector("#monsterStats");
             monsterStats.style.display = "block";
-            monsterName.innerText = monsters[fighting].name
+            monsterName.innerText = monsters[fighting].name;
             monsterHealthText.innerText = monsterHealth;
         }
         function attack() {
             text.innerText = "The " + monsters[fighting].name + " attacks.";
             text.innerText += " You attack it with your " + weapons[currentWeapon].name + ".";
+            health -= monsters[fighting].level;
         }
         function dodge() {
 
