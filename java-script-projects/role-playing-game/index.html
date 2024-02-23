@@ -190,7 +190,9 @@
             healthText.innerText = health;
             monsterHealthText.innerText = monsterHealth;
             if (health <= 0) {
-                function lose () {}
+                lose ();
+            } else if (monsterHealth <= 0) {
+                defeatMonster();
             }
         }
         function dodge() {
