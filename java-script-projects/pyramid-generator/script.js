@@ -15,3 +15,4 @@ function padRow(){
 
 }
 padRow();
+const call = padRow();
