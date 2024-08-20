@@ -9,4 +9,5 @@ let result = [""];
 console.log(result);
 for (const row of rows) {
     result = result + "\n" + row;
+    character.repeat(i);
 }
