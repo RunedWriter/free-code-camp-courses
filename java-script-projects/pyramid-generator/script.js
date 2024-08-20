@@ -11,7 +11,7 @@ for (const row of rows) {
     result = result + "\n" + row;
     character.repeat(i + 1);
 }
-function padRow(){
+function padRow(name){
     return "Hello!";
 }
 padRow();
