@@ -15,5 +15,5 @@ function padRow(name){
     return name;
 }
 padRow();
-const call = padRow();
+const call = padRow("Rune");
 console.log(call);
