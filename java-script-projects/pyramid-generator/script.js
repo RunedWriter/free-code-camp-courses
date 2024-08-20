@@ -12,7 +12,7 @@ for (const row of rows) {
     character.repeat(i + 1);
 }
 function padRow(name){
-    return "Hello!";
+    return name;
 }
 padRow();
 const call = padRow();
