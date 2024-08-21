@@ -12,6 +12,7 @@ for (const row of rows) {
     character.repeat(i + 1);
 }
 function padRow(name){
+    const test = "Testing";
     return character + name;
 }
 padRow();
