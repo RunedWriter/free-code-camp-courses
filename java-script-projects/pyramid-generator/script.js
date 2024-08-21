@@ -17,8 +17,3 @@ function padRow(name){
 padRow();
 const call = padRow("Rune");
 console.log(call);
-function addTwoNumbers(num1, num2){
-    return num1 + num2;
-  }
-  let sum = addTwoNumbers(5, 10);
-  console.log(sum);
