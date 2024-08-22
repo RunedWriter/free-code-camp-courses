@@ -12,6 +12,6 @@ for (const row of rows) {
     character.repeat(i + 1);
 }
 function padRow(rowNumber, rowCount){
-
+    return character.repeat(rowNumber);
 }
 padRow();
