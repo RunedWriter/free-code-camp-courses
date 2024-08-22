@@ -11,12 +11,10 @@ for (const row of rows) {
     result = result + "\n" + row;
     character.repeat(i + 1);
 }
-function padRow(name){
+function padRow(){
     const test = "Testing";
-    console.log("This works!")
     return test;
-    console.log("This works!")
 }
 padRow();
-const call = padRow("Rune");
+const call = padRow();
 console.log(call);
