@@ -9,9 +9,9 @@ function padRow(rowNumber, rowCount){
 }
 
 // change code to different kind of loop
-for (let i = 1; i <= count; i ++) {
+/*for (let i = 1; i <= count; i ++) {
     rows.push(padRow(i, count));
-}
+}*/
 
 let result = [""];
 
